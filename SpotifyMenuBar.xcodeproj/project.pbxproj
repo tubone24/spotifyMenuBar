@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AAFD5EA25235B8100880D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFD5E925235B8100880D6F /* AppDelegate.swift */; };
+		4AAFD5EC25235B8100880D6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFD5EB25235B8100880D6F /* ViewController.swift */; };
+		4AAFD5EE25235B8400880D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAFD5ED25235B8400880D6F /* Assets.xcassets */; };
+		4AAFD5F125235B8400880D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAFD5EF25235B8400880D6F /* Main.storyboard */; };
+		4AAFD5FD25235B8400880D6F /* SpotifyMenuBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFD5FC25235B8400880D6F /* SpotifyMenuBarTests.swift */; };
+		4AAFD60825235B8400880D6F /* SpotifyMenuBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFD60725235B8400880D6F /* SpotifyMenuBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AAFD5F925235B8400880D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AAFD5DE25235B8100880D6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AAFD5E525235B8100880D6F;
+			remoteInfo = SpotifyMenuBar;
+		};
+		4AAFD60425235B8400880D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AAFD5DE25235B8100880D6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AAFD5E525235B8100880D6F;
+			remoteInfo = SpotifyMenuBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AAFD5E625235B8100880D6F /* SpotifyMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAFD5E925235B8100880D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AAFD5EB25235B8100880D6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AAFD5ED25235B8400880D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AAFD5F025235B8400880D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AAFD5F225235B8400880D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAFD5F325235B8400880D6F /* SpotifyMenuBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpotifyMenuBar.entitlements; sourceTree = "<group>"; };
+		4AAFD5F825235B8400880D6F /* SpotifyMenuBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyMenuBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAFD5FC25235B8400880D6F /* SpotifyMenuBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyMenuBarTests.swift; sourceTree = "<group>"; };
+		4AAFD5FE25235B8400880D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAFD60325235B8400880D6F /* SpotifyMenuBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyMenuBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAFD60725235B8400880D6F /* SpotifyMenuBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyMenuBarUITests.swift; sourceTree = "<group>"; };
+		4AAFD60925235B8400880D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AAFD5E325235B8100880D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAFD5F525235B8400880D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAFD60025235B8400880D6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AAFD5DD25235B8100880D6F = {
+			isa = PBXGroup;
+			children = (
+				4AAFD5E825235B8100880D6F /* SpotifyMenuBar */,
+				4AAFD5FB25235B8400880D6F /* SpotifyMenuBarTests */,
+				4AAFD60625235B8400880D6F /* SpotifyMenuBarUITests */,
+				4AAFD5E725235B8100880D6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AAFD5E725235B8100880D6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AAFD5E625235B8100880D6F /* SpotifyMenuBar.app */,
+				4AAFD5F825235B8400880D6F /* SpotifyMenuBarTests.xctest */,
+				4AAFD60325235B8400880D6F /* SpotifyMenuBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AAFD5E825235B8100880D6F /* SpotifyMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				4AAFD5E925235B8100880D6F /* AppDelegate.swift */,
+				4AAFD5EF25235B8400880D6F /* Main.storyboard */,
+				4AAFD5EB25235B8100880D6F /* ViewController.swift */,
+				4AAFD5ED25235B8400880D6F /* Assets.xcassets */,
+				4AAFD5F225235B8400880D6F /* Info.plist */,
+				4AAFD5F325235B8400880D6F /* SpotifyMenuBar.entitlements */,
+			);
+			path = SpotifyMenuBar;
+			sourceTree = "<group>";
+		};
+		4AAFD5FB25235B8400880D6F /* SpotifyMenuBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AAFD5FC25235B8400880D6F /* SpotifyMenuBarTests.swift */,
+				4AAFD5FE25235B8400880D6F /* Info.plist */,
+			);
+			path = SpotifyMenuBarTests;
+			sourceTree = "<group>";
+		};
+		4AAFD60625235B8400880D6F /* SpotifyMenuBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AAFD60725235B8400880D6F /* SpotifyMenuBarUITests.swift */,
+				4AAFD60925235B8400880D6F /* Info.plist */,
+			);
+			path = SpotifyMenuBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AAFD5E525235B8100880D6F /* SpotifyMenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAFD60C25235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBar" */;
+			buildPhases = (
+				4AAFD5E225235B8100880D6F /* Sources */,
+				4AAFD5E325235B8100880D6F /* Frameworks */,
+				4AAFD5E425235B8100880D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyMenuBar;
+			productName = SpotifyMenuBar;
+			productReference = 4AAFD5E625235B8100880D6F /* SpotifyMenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AAFD5F725235B8400880D6F /* SpotifyMenuBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAFD60F25235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBarTests" */;
+			buildPhases = (
+				4AAFD5F425235B8400880D6F /* Sources */,
+				4AAFD5F525235B8400880D6F /* Frameworks */,
+				4AAFD5F625235B8400880D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AAFD5FA25235B8400880D6F /* PBXTargetDependency */,
+			);
+			name = SpotifyMenuBarTests;
+			productName = SpotifyMenuBarTests;
+			productReference = 4AAFD5F825235B8400880D6F /* SpotifyMenuBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AAFD60225235B8400880D6F /* SpotifyMenuBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAFD61225235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBarUITests" */;
+			buildPhases = (
+				4AAFD5FF25235B8400880D6F /* Sources */,
+				4AAFD60025235B8400880D6F /* Frameworks */,
+				4AAFD60125235B8400880D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AAFD60525235B8400880D6F /* PBXTargetDependency */,
+			);
+			name = SpotifyMenuBarUITests;
+			productName = SpotifyMenuBarUITests;
+			productReference = 4AAFD60325235B8400880D6F /* SpotifyMenuBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AAFD5DE25235B8100880D6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = tubone24;
+				TargetAttributes = {
+					4AAFD5E525235B8100880D6F = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					4AAFD5F725235B8400880D6F = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 4AAFD5E525235B8100880D6F;
+					};
+					4AAFD60225235B8400880D6F = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 4AAFD5E525235B8100880D6F;
+					};
+				};
+			};
+			buildConfigurationList = 4AAFD5E125235B8100880D6F /* Build configuration list for PBXProject "SpotifyMenuBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AAFD5DD25235B8100880D6F;
+			productRefGroup = 4AAFD5E725235B8100880D6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AAFD5E525235B8100880D6F /* SpotifyMenuBar */,
+				4AAFD5F725235B8400880D6F /* SpotifyMenuBarTests */,
+				4AAFD60225235B8400880D6F /* SpotifyMenuBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AAFD5E425235B8100880D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAFD5EE25235B8400880D6F /* Assets.xcassets in Resources */,
+				4AAFD5F125235B8400880D6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAFD5F625235B8400880D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAFD60125235B8400880D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AAFD5E225235B8100880D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAFD5EC25235B8100880D6F /* ViewController.swift in Sources */,
+				4AAFD5EA25235B8100880D6F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAFD5F425235B8400880D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAFD5FD25235B8400880D6F /* SpotifyMenuBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAFD5FF25235B8400880D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AAFD60825235B8400880D6F /* SpotifyMenuBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AAFD5FA25235B8400880D6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AAFD5E525235B8100880D6F /* SpotifyMenuBar */;
+			targetProxy = 4AAFD5F925235B8400880D6F /* PBXContainerItemProxy */;
+		};
+		4AAFD60525235B8400880D6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AAFD5E525235B8100880D6F /* SpotifyMenuBar */;
+			targetProxy = 4AAFD60425235B8400880D6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AAFD5EF25235B8400880D6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AAFD5F025235B8400880D6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AAFD60A25235B8400880D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AAFD60B25235B8400880D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4AAFD60D25235B8400880D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpotifyMenuBar/SpotifyMenuBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotifyMenuBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.tubone-project24.SpotifyMenuBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4AAFD60E25235B8400880D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpotifyMenuBar/SpotifyMenuBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotifyMenuBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.tubone-project24.SpotifyMenuBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4AAFD61025235B8400880D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotifyMenuBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.tubone-project24.SpotifyMenuBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotifyMenuBar.app/Contents/MacOS/SpotifyMenuBar";
+			};
+			name = Debug;
+		};
+		4AAFD61125235B8400880D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotifyMenuBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.tubone-project24.SpotifyMenuBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotifyMenuBar.app/Contents/MacOS/SpotifyMenuBar";
+			};
+			name = Release;
+		};
+		4AAFD61325235B8400880D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotifyMenuBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.tubone-project24.SpotifyMenuBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SpotifyMenuBar;
+			};
+			name = Debug;
+		};
+		4AAFD61425235B8400880D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpotifyMenuBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.tubone-project24.SpotifyMenuBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SpotifyMenuBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AAFD5E125235B8100880D6F /* Build configuration list for PBXProject "SpotifyMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAFD60A25235B8400880D6F /* Debug */,
+				4AAFD60B25235B8400880D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAFD60C25235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAFD60D25235B8400880D6F /* Debug */,
+				4AAFD60E25235B8400880D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAFD60F25235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAFD61025235B8400880D6F /* Debug */,
+				4AAFD61125235B8400880D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAFD61225235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAFD61325235B8400880D6F /* Debug */,
+				4AAFD61425235B8400880D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AAFD5DE25235B8100880D6F /* Project object */;
+}
