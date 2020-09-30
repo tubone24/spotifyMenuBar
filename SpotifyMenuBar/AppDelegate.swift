@@ -11,10 +11,9 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    //メニューとOutlet接続。
+    //Outlet
     @IBOutlet weak var menu: NSMenu!
 
-    //メニューバーに表示されるアプリケーションを作成
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
 
 
@@ -22,21 +21,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
 
 
-        // メニューバーに表示されるアプリ。今回は文字列で設定
+        // icon image
         self.statusItem.button?.image = NSImage(imageLiteralResourceName: "menuBarIcon")
-        //メニューのハイライトモードの設定
+        
+        // todo
         self.statusItem.highlightMode = true
         //メニューの指定
         self.statusItem.menu = menu
 
 
-        //アプリ終了ボタンを作成
+        // Quit App
         let quitItem = NSMenuItem()
-        //終了ボタンのテキスト
+        
         quitItem.title = "Quit Application"
-        //終了ボタンをクリックした時の動作。 ˚˚˚ func quitを呼び出す。˚˚˚
+        
         quitItem.action = #selector(AppDelegate.quit(_:))
-        //作成したボタンを追加。
+        
         menu.addItem(quitItem)
 
     }
@@ -46,7 +46,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     @objc func quit(_ sender: Any){
-        //アプリケーションの終了
+        
         NSApplication.shared.terminate(self)
     }
 }
