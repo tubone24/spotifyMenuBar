@@ -1,1 +1,5 @@
 .DS_Store
+Pods
+*.xcworkspace
+Podfile.lock
+SpotifyMenuBar.xcodeproj/project.xcworkspace/xcuserdata/tubone.xcuserdatad/UserInterfaceState.xcuserstate

@@ -28,7 +28,33 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         self.statusItem.highlightMode = true
         //メニューの指定
         self.statusItem.menu = menu
+        
+        // Next
+        let nextItem = NSMenuItem()
+        
+        nextItem.title = "Next"
+        
+        nextItem.action = #selector(AppDelegate.quit(_:))
+        
+        menu.addItem(nextItem)
 
+        // Play/pause
+        let playItem = NSMenuItem()
+        
+        playItem.title = "Play/Pause"
+        
+        playItem.action = #selector(AppDelegate.quit(_:))
+        
+        menu.addItem(playItem)
+        
+        // Previous
+        let previousItem = NSMenuItem()
+        
+        previousItem.title = "Previous"
+        
+        previousItem.action = #selector(AppDelegate.quit(_:))
+        
+        menu.addItem(previousItem)
 
         // Quit App
         let quitItem = NSMenuItem()

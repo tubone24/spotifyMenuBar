@@ -682,13 +682,7 @@
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <menu id="KJJ-Kz-HF1">
                     <items>
-                        <menuItem title="aaaa" id="Jw2-cB-e2y">
-                            <modifierMask key="keyEquivalentModifierMask"/>
-                        </menuItem>
-                        <menuItem title="helloWorld" id="p29-BP-peT">
-                            <modifierMask key="keyEquivalentModifierMask"/>
-                        </menuItem>
-                        <menuItem title="bbb" id="gON-2L-cpB">
+                        <menuItem title="about" id="p29-BP-peT">
                             <modifierMask key="keyEquivalentModifierMask"/>
                         </menuItem>
                     </items>
