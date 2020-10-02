@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import APIKit
 
-public class CPU {
+public class Spotify {
     
 }
 
