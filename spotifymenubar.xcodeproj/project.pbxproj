@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46A14C3B540713A0974BDD3F /* Pods_SpotifyMenuBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8B0F328F3CC059ABAC61A2 /* Pods_SpotifyMenuBar.framework */; };
+		2D739BE152188B9F1D016FF0 /* Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C37CA41090EB7F3FB10084 /* Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework */; };
 		4A385FBD2526E16800CC8D6C /* Spotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A385FBC2526E16800CC8D6C /* Spotify.swift */; };
 		4AAFD5EA25235B8100880D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFD5E925235B8100880D6F /* AppDelegate.swift */; };
 		4AAFD5EC25235B8100880D6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFD5EB25235B8100880D6F /* ViewController.swift */; };
@@ -15,8 +15,8 @@
 		4AAFD5F125235B8400880D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAFD5EF25235B8400880D6F /* Main.storyboard */; };
 		4AAFD5FD25235B8400880D6F /* SpotifyMenuBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFD5FC25235B8400880D6F /* SpotifyMenuBarTests.swift */; };
 		4AAFD60825235B8400880D6F /* SpotifyMenuBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFD60725235B8400880D6F /* SpotifyMenuBarUITests.swift */; };
-		58FD7B77D88BEFAA87CA34DD /* Pods_SpotifyMenuBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715BA4A276EF973F0FAF26EF /* Pods_SpotifyMenuBarTests.framework */; };
-		B1CF1792C6CDB58067CF51EF /* Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CCD8E74F0A394D829375EBE /* Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework */; };
+		9F0DFD8707AFF77CFDECD718 /* Pods_SpotifyMenuBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF718631C62D72D8C74E3647 /* Pods_SpotifyMenuBarTests.framework */; };
+		A0E78619F0BCB4676CCF50DA /* Pods_SpotifyMenuBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F220B2830ED6727C9F272E4 /* Pods_SpotifyMenuBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,29 +37,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EFC65AB9A8F2649E76B294F /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBar-SpotifyMenuBarUITests.release.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBar-SpotifyMenuBarUITests/Pods-SpotifyMenuBar-SpotifyMenuBarUITests.release.xcconfig"; sourceTree = "<group>"; };
-		22FF9921A23CEC03D1DB1F24 /* Pods-SpotifyMenuBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBarTests.release.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBarTests/Pods-SpotifyMenuBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		064083C67B49B31E290441BF /* Pods-SpotifyMenuBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBarTests.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBarTests/Pods-SpotifyMenuBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E3D3EE6568B71979CCC93F9 /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBar-SpotifyMenuBarUITests.release.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBar-SpotifyMenuBarUITests/Pods-SpotifyMenuBar-SpotifyMenuBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		26C37CA41090EB7F3FB10084 /* Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A385FBC2526E16800CC8D6C /* Spotify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify.swift; sourceTree = "<group>"; };
-		4AAFD5E625235B8100880D6F /* SpotifyMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAFD5E625235B8100880D6F /* spotifymenubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotifymenubar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AAFD5E925235B8100880D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AAFD5EB25235B8100880D6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AAFD5ED25235B8400880D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AAFD5F025235B8400880D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AAFD5F225235B8400880D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AAFD5F325235B8400880D6F /* SpotifyMenuBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpotifyMenuBar.entitlements; sourceTree = "<group>"; };
-		4AAFD5F825235B8400880D6F /* SpotifyMenuBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyMenuBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAFD5F825235B8400880D6F /* spotifymenubarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotifymenubarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AAFD5FC25235B8400880D6F /* SpotifyMenuBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyMenuBarTests.swift; sourceTree = "<group>"; };
 		4AAFD5FE25235B8400880D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AAFD60325235B8400880D6F /* SpotifyMenuBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyMenuBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAFD60325235B8400880D6F /* spotifymenubarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotifymenubarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AAFD60725235B8400880D6F /* SpotifyMenuBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyMenuBarUITests.swift; sourceTree = "<group>"; };
 		4AAFD60925235B8400880D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		715BA4A276EF973F0FAF26EF /* Pods_SpotifyMenuBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyMenuBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7671654C04B41EB48482A18D /* Pods-SpotifyMenuBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBar.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBar/Pods-SpotifyMenuBar.debug.xcconfig"; sourceTree = "<group>"; };
-		7CCD8E74F0A394D829375EBE /* Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C8B0F328F3CC059ABAC61A2 /* Pods_SpotifyMenuBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyMenuBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0604DDCF562C62B6DC0091B /* Pods-SpotifyMenuBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBarTests.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBarTests/Pods-SpotifyMenuBarTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DA7FBEF9D8434EA07A80EF12 /* Pods-SpotifyMenuBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBar.release.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBar/Pods-SpotifyMenuBar.release.xcconfig"; sourceTree = "<group>"; };
-		EFA9131265A1C990269E4C54 /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBar-SpotifyMenuBarUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBar-SpotifyMenuBarUITests/Pods-SpotifyMenuBar-SpotifyMenuBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F220B2830ED6727C9F272E4 /* Pods_SpotifyMenuBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyMenuBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CEFF30AF08B827C18DF3E /* Pods-SpotifyMenuBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBarTests.release.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBarTests/Pods-SpotifyMenuBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B67A538AF18516402DF765B /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBar-SpotifyMenuBarUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBar-SpotifyMenuBarUITests/Pods-SpotifyMenuBar-SpotifyMenuBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7BEB24EB6F3FDC3D955D1A7 /* Pods-SpotifyMenuBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBar.debug.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBar/Pods-SpotifyMenuBar.debug.xcconfig"; sourceTree = "<group>"; };
+		EF718631C62D72D8C74E3647 /* Pods_SpotifyMenuBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyMenuBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B4768EEBBA6A9CE8C1370B /* Pods-SpotifyMenuBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyMenuBar.release.xcconfig"; path = "Target Support Files/Pods-SpotifyMenuBar/Pods-SpotifyMenuBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A14C3B540713A0974BDD3F /* Pods_SpotifyMenuBar.framework in Frameworks */,
+				A0E78619F0BCB4676CCF50DA /* Pods_SpotifyMenuBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58FD7B77D88BEFAA87CA34DD /* Pods_SpotifyMenuBarTests.framework in Frameworks */,
+				9F0DFD8707AFF77CFDECD718 /* Pods_SpotifyMenuBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,37 +83,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1CF1792C6CDB58067CF51EF /* Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework in Frameworks */,
+				2D739BE152188B9F1D016FF0 /* Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2817B4924E0665AAFCC89050 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7671654C04B41EB48482A18D /* Pods-SpotifyMenuBar.debug.xcconfig */,
-				DA7FBEF9D8434EA07A80EF12 /* Pods-SpotifyMenuBar.release.xcconfig */,
-				EFA9131265A1C990269E4C54 /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.debug.xcconfig */,
-				0EFC65AB9A8F2649E76B294F /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.release.xcconfig */,
-				C0604DDCF562C62B6DC0091B /* Pods-SpotifyMenuBarTests.debug.xcconfig */,
-				22FF9921A23CEC03D1DB1F24 /* Pods-SpotifyMenuBarTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		456CF541BD88C395EC3E165E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9C8B0F328F3CC059ABAC61A2 /* Pods_SpotifyMenuBar.framework */,
-				7CCD8E74F0A394D829375EBE /* Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework */,
-				715BA4A276EF973F0FAF26EF /* Pods_SpotifyMenuBarTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		4AAFD5DD25235B8100880D6F = {
 			isa = PBXGroup;
 			children = (
@@ -121,17 +97,17 @@
 				4AAFD5FB25235B8400880D6F /* SpotifyMenuBarTests */,
 				4AAFD60625235B8400880D6F /* SpotifyMenuBarUITests */,
 				4AAFD5E725235B8100880D6F /* Products */,
-				2817B4924E0665AAFCC89050 /* Pods */,
-				456CF541BD88C395EC3E165E /* Frameworks */,
+				CC6D6203C6F24D942FA6D8A9 /* Pods */,
+				A42F7CA110586FF1CC18A7DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		4AAFD5E725235B8100880D6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AAFD5E625235B8100880D6F /* SpotifyMenuBar.app */,
-				4AAFD5F825235B8400880D6F /* SpotifyMenuBarTests.xctest */,
-				4AAFD60325235B8400880D6F /* SpotifyMenuBarUITests.xctest */,
+				4AAFD5E625235B8100880D6F /* spotifymenubar.app */,
+				4AAFD5F825235B8400880D6F /* spotifymenubarTests.xctest */,
+				4AAFD60325235B8400880D6F /* spotifymenubarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,33 +144,56 @@
 			path = SpotifyMenuBarUITests;
 			sourceTree = "<group>";
 		};
+		A42F7CA110586FF1CC18A7DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F220B2830ED6727C9F272E4 /* Pods_SpotifyMenuBar.framework */,
+				26C37CA41090EB7F3FB10084 /* Pods_SpotifyMenuBar_SpotifyMenuBarUITests.framework */,
+				EF718631C62D72D8C74E3647 /* Pods_SpotifyMenuBarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC6D6203C6F24D942FA6D8A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7BEB24EB6F3FDC3D955D1A7 /* Pods-SpotifyMenuBar.debug.xcconfig */,
+				F2B4768EEBBA6A9CE8C1370B /* Pods-SpotifyMenuBar.release.xcconfig */,
+				8B67A538AF18516402DF765B /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.debug.xcconfig */,
+				1E3D3EE6568B71979CCC93F9 /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.release.xcconfig */,
+				064083C67B49B31E290441BF /* Pods-SpotifyMenuBarTests.debug.xcconfig */,
+				809CEFF30AF08B827C18DF3E /* Pods-SpotifyMenuBarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AAFD5E525235B8100880D6F /* SpotifyMenuBar */ = {
+		4AAFD5E525235B8100880D6F /* spotifymenubar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AAFD60C25235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBar" */;
+			buildConfigurationList = 4AAFD60C25235B8400880D6F /* Build configuration list for PBXNativeTarget "spotifymenubar" */;
 			buildPhases = (
-				285854F6AC8DA7C27C7150C6 /* [CP] Check Pods Manifest.lock */,
+				FB17E4C1E927ABAC125B9AAE /* [CP] Check Pods Manifest.lock */,
 				4AAFD5E225235B8100880D6F /* Sources */,
 				4AAFD5E325235B8100880D6F /* Frameworks */,
 				4AAFD5E425235B8100880D6F /* Resources */,
-				378B5EC30A099D10C173DB61 /* [CP] Embed Pods Frameworks */,
+				E852CB04323136A0CEEAC15F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SpotifyMenuBar;
+			name = spotifymenubar;
 			productName = SpotifyMenuBar;
-			productReference = 4AAFD5E625235B8100880D6F /* SpotifyMenuBar.app */;
+			productReference = 4AAFD5E625235B8100880D6F /* spotifymenubar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4AAFD5F725235B8400880D6F /* SpotifyMenuBarTests */ = {
+		4AAFD5F725235B8400880D6F /* spotifymenubarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AAFD60F25235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBarTests" */;
+			buildConfigurationList = 4AAFD60F25235B8400880D6F /* Build configuration list for PBXNativeTarget "spotifymenubarTests" */;
 			buildPhases = (
-				9710F592F3966508793D724E /* [CP] Check Pods Manifest.lock */,
+				5B87E1B81CDA3F3E2C1D79EF /* [CP] Check Pods Manifest.lock */,
 				4AAFD5F425235B8400880D6F /* Sources */,
 				4AAFD5F525235B8400880D6F /* Frameworks */,
 				4AAFD5F625235B8400880D6F /* Resources */,
@@ -204,29 +203,29 @@
 			dependencies = (
 				4AAFD5FA25235B8400880D6F /* PBXTargetDependency */,
 			);
-			name = SpotifyMenuBarTests;
+			name = spotifymenubarTests;
 			productName = SpotifyMenuBarTests;
-			productReference = 4AAFD5F825235B8400880D6F /* SpotifyMenuBarTests.xctest */;
+			productReference = 4AAFD5F825235B8400880D6F /* spotifymenubarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4AAFD60225235B8400880D6F /* SpotifyMenuBarUITests */ = {
+		4AAFD60225235B8400880D6F /* spotifymenubarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AAFD61225235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBarUITests" */;
+			buildConfigurationList = 4AAFD61225235B8400880D6F /* Build configuration list for PBXNativeTarget "spotifymenubarUITests" */;
 			buildPhases = (
-				A527370D0D2892979C54A099 /* [CP] Check Pods Manifest.lock */,
+				F066F72DD1469213C58E62DA /* [CP] Check Pods Manifest.lock */,
 				4AAFD5FF25235B8400880D6F /* Sources */,
 				4AAFD60025235B8400880D6F /* Frameworks */,
 				4AAFD60125235B8400880D6F /* Resources */,
-				CD976DC04AFAAA5F445CD00F /* [CP] Embed Pods Frameworks */,
+				B34B1F5DDF11488365F24EC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				4AAFD60525235B8400880D6F /* PBXTargetDependency */,
 			);
-			name = SpotifyMenuBarUITests;
+			name = spotifymenubarUITests;
 			productName = SpotifyMenuBarUITests;
-			productReference = 4AAFD60325235B8400880D6F /* SpotifyMenuBarUITests.xctest */;
+			productReference = 4AAFD60325235B8400880D6F /* spotifymenubarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -252,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4AAFD5E125235B8100880D6F /* Build configuration list for PBXProject "SpotifyMenuBar" */;
+			buildConfigurationList = 4AAFD5E125235B8100880D6F /* Build configuration list for PBXProject "spotifymenubar" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -265,9 +264,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AAFD5E525235B8100880D6F /* SpotifyMenuBar */,
-				4AAFD5F725235B8400880D6F /* SpotifyMenuBarTests */,
-				4AAFD60225235B8400880D6F /* SpotifyMenuBarUITests */,
+				4AAFD5E525235B8100880D6F /* spotifymenubar */,
+				4AAFD5F725235B8400880D6F /* spotifymenubarTests */,
+				4AAFD60225235B8400880D6F /* spotifymenubarUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,46 +298,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		285854F6AC8DA7C27C7150C6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SpotifyMenuBar-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		378B5EC30A099D10C173DB61 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar/Pods-SpotifyMenuBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar/Pods-SpotifyMenuBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar/Pods-SpotifyMenuBar-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9710F592F3966508793D724E /* [CP] Check Pods Manifest.lock */ = {
+		5B87E1B81CDA3F3E2C1D79EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,7 +320,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A527370D0D2892979C54A099 /* [CP] Check Pods Manifest.lock */ = {
+		B34B1F5DDF11488365F24EC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar-SpotifyMenuBarUITests/Pods-SpotifyMenuBar-SpotifyMenuBarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar-SpotifyMenuBarUITests/Pods-SpotifyMenuBar-SpotifyMenuBarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar-SpotifyMenuBarUITests/Pods-SpotifyMenuBar-SpotifyMenuBarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E852CB04323136A0CEEAC15F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar/Pods-SpotifyMenuBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar/Pods-SpotifyMenuBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar/Pods-SpotifyMenuBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F066F72DD1469213C58E62DA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,21 +376,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD976DC04AFAAA5F445CD00F /* [CP] Embed Pods Frameworks */ = {
+		FB17E4C1E927ABAC125B9AAE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar-SpotifyMenuBarUITests/Pods-SpotifyMenuBar-SpotifyMenuBarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar-SpotifyMenuBarUITests/Pods-SpotifyMenuBar-SpotifyMenuBarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpotifyMenuBar-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpotifyMenuBar-SpotifyMenuBarUITests/Pods-SpotifyMenuBar-SpotifyMenuBarUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -433,12 +432,12 @@
 /* Begin PBXTargetDependency section */
 		4AAFD5FA25235B8400880D6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4AAFD5E525235B8100880D6F /* SpotifyMenuBar */;
+			target = 4AAFD5E525235B8100880D6F /* spotifymenubar */;
 			targetProxy = 4AAFD5F925235B8400880D6F /* PBXContainerItemProxy */;
 		};
 		4AAFD60525235B8400880D6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4AAFD5E525235B8100880D6F /* SpotifyMenuBar */;
+			target = 4AAFD5E525235B8100880D6F /* spotifymenubar */;
 			targetProxy = 4AAFD60425235B8400880D6F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -570,7 +569,7 @@
 		};
 		4AAFD60D25235B8400880D6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7671654C04B41EB48482A18D /* Pods-SpotifyMenuBar.debug.xcconfig */;
+			baseConfigurationReference = E7BEB24EB6F3FDC3D955D1A7 /* Pods-SpotifyMenuBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SpotifyMenuBar/SpotifyMenuBar.entitlements;
@@ -589,7 +588,7 @@
 		};
 		4AAFD60E25235B8400880D6F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA7FBEF9D8434EA07A80EF12 /* Pods-SpotifyMenuBar.release.xcconfig */;
+			baseConfigurationReference = F2B4768EEBBA6A9CE8C1370B /* Pods-SpotifyMenuBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SpotifyMenuBar/SpotifyMenuBar.entitlements;
@@ -608,7 +607,7 @@
 		};
 		4AAFD61025235B8400880D6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0604DDCF562C62B6DC0091B /* Pods-SpotifyMenuBarTests.debug.xcconfig */;
+			baseConfigurationReference = 064083C67B49B31E290441BF /* Pods-SpotifyMenuBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -624,13 +623,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.tubone-project24.SpotifyMenuBarTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotifyMenuBar.app/Contents/MacOS/SpotifyMenuBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spotifymenubar.app/Contents/MacOS/spotifymenubar";
 			};
 			name = Debug;
 		};
 		4AAFD61125235B8400880D6F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22FF9921A23CEC03D1DB1F24 /* Pods-SpotifyMenuBarTests.release.xcconfig */;
+			baseConfigurationReference = 809CEFF30AF08B827C18DF3E /* Pods-SpotifyMenuBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -646,15 +645,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "xyz.tubone-project24.SpotifyMenuBarTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotifyMenuBar.app/Contents/MacOS/SpotifyMenuBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spotifymenubar.app/Contents/MacOS/spotifymenubar";
 			};
 			name = Release;
 		};
 		4AAFD61325235B8400880D6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFA9131265A1C990269E4C54 /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.debug.xcconfig */;
+			baseConfigurationReference = 8B67A538AF18516402DF765B /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SpotifyMenuBarUITests/Info.plist;
@@ -672,9 +671,9 @@
 		};
 		4AAFD61425235B8400880D6F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EFC65AB9A8F2649E76B294F /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.release.xcconfig */;
+			baseConfigurationReference = 1E3D3EE6568B71979CCC93F9 /* Pods-SpotifyMenuBar-SpotifyMenuBarUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SpotifyMenuBarUITests/Info.plist;
@@ -693,7 +692,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AAFD5E125235B8100880D6F /* Build configuration list for PBXProject "SpotifyMenuBar" */ = {
+		4AAFD5E125235B8100880D6F /* Build configuration list for PBXProject "spotifymenubar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AAFD60A25235B8400880D6F /* Debug */,
@@ -702,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AAFD60C25235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBar" */ = {
+		4AAFD60C25235B8400880D6F /* Build configuration list for PBXNativeTarget "spotifymenubar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AAFD60D25235B8400880D6F /* Debug */,
@@ -711,7 +710,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AAFD60F25235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBarTests" */ = {
+		4AAFD60F25235B8400880D6F /* Build configuration list for PBXNativeTarget "spotifymenubarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AAFD61025235B8400880D6F /* Debug */,
@@ -720,7 +719,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AAFD61225235B8400880D6F /* Build configuration list for PBXNativeTarget "SpotifyMenuBarUITests" */ = {
+		4AAFD61225235B8400880D6F /* Build configuration list for PBXNativeTarget "spotifymenubarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AAFD61325235B8400880D6F /* Debug */,
